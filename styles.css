@@ -7,7 +7,7 @@ body {
     background-position: center;
     height: 100vh;
 
-    color: #fff;
+    color: #0f20d7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,3 +83,27 @@ h1 {
     }
   }
   
+  .product-card img {
+    max-height: 200px;
+    object-fit: contain;
+  }
+  .cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background: #f8f9fa;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  .navbar {
+    z-index: 1051;
+    position: relative;
+  }
+  .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+  }
